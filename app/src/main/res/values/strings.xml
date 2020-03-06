@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FlagsAndCountry</string>
+    <string name="internet_status_ok">Интернет подключен</string>
+    <string name="btn_country_list">Список стран</string>
+    <string name="btn_country_test">Тест \"флаги и страны\"</string>
+    <string name="capital_of_country">Столица:</string>
+    <string name="currency_of_capital">Валюта страны:</string>
+</resources>
