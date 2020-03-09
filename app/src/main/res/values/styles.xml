@@ -23,7 +23,7 @@
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/colorAccent</item>
         <item name="android:layout_margin">@dimen/margin_16dp</item>
-        <item name="android:shadowColor">@color/colorPrimary</item>
+        <item name="android:shadowColor">@color/colorAccent2</item>
         <item name="android:shadowRadius">2</item>
         <item name="android:shadowDx">10</item>
         <item name="android:shadowDy">6</item>

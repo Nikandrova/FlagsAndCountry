@@ -1,26 +1,17 @@
 package com.example.flagsandcountry.fragments
 
 import android.os.Bundle
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
-import androidx.fragment.app.Fragment
-import com.arellomobile.mvp.MvpFragment
+import androidx.recyclerview.widget.RecyclerView
 import com.example.flagsandcountry.R
 import com.example.flagsandcountry.views.CountriesListView
 
-class CountriesListFragment : Fragment(), CountriesListView {
+class CountriesListFragment : BaseFragment(), CountriesListView {
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        return inflater.inflate(R.layout.fragment_country_list, container, false)
-    }
+    private lateinit var countryList : RecyclerView
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+    override fun getLayoutId(): Int = R.layout.fragment_country_list
 
-    }
-
-    init {
-
+    override fun init() {
+        super.init()
     }
 }
